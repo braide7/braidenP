@@ -3,4 +3,9 @@
 }
 body{
   margin: 0;
+  /* background: #0a192f; */
+  background: radial-gradient(#003566, #001d3d);
+  background-repeat: none;
+  min-height: 100vh;
+  font-family: 'Source Sans 3', sans-serif;
 }
