@@ -8,6 +8,7 @@ header{
 #section-wrapper{
   height: 92vh;
   background-image: url('../src/assets/header.png');
+  background-size: cover;
 }  
 #section-wrapper .text{
   position: absolute;
