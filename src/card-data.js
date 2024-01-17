@@ -9,7 +9,7 @@ export const CARD_DATA = [
     {
         id: "experience",
         title: "Experience",
-        desc: 'I had the opportunity to intern at iGenius. My time there as a frontend developer was split between adding additional pages to the customer facing site and updating existing content as needed utilizing HTML/CSS. The other half of my time was spent working on thelanding page redesign utilizing React.js. I added caching and optimized media to reduce site load time by half.'
+        desc: 'I had the opportunity to intern at iGenius. My time there as a frontend developer was split between adding additional pages to the customer facing site and updating existing content as needed utilizing HTML/CSS. The other half of my time was spent working on the landing page redesign utilizing React.js. I added caching and optimized media to reduce site load time by half.'
     },
     {
         id: "projects",
