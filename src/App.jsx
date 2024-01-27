@@ -1,5 +1,3 @@
-
-
 import './App.css'
 import Header from './Components/Header'
 import Main from './Components/Main'
@@ -15,6 +13,11 @@ import dojoProject from './assets/dojoHome.png'
 import projectManager from './assets/projectManager.png'
 import githubLogo from './assets/github2.png'
 import linkedinLogo from './assets/linkedin.png'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init();
 
 import { CARD_DATA } from './card-data.js'
 
@@ -32,17 +35,17 @@ function App() {
       ))} */}
 
       
-        <Card id={cardInfo[0].id} title={cardInfo[0].title} >
+        <Card id={cardInfo[0].id} title={cardInfo[0].title} indexNum={0} >
           <p>{cardInfo[0].desc}</p>
           <LanguageGrid ></LanguageGrid>
         </Card>
-        <Card id={cardInfo[1].id} title={cardInfo[1].title} >
+        <Card id={cardInfo[1].id} title={cardInfo[1].title} indexNum={1}>
           <p>{cardInfo[1].desc}</p>
           <div className="project-wrapper">
           <a href="https://www.igeniusglobal.com/" target='_blank'><img src={iGenius} alt="iGenuis Landing page" /></a>
           </div>
         </Card>
-        <Card id={cardInfo[2].id} title={cardInfo[2].title} >
+        <Card id={cardInfo[2].id} title={cardInfo[2].title}  indexNum={2}>
           <p>{cardInfo[2].desc}</p>
           <Project src={dojoProject} githubLink='https://github.com/braide7/the-dojo' siteLink='https://thedojosite-74fec.web.app/login'>This site is for team project management. You are able to add new projects, assign to team members, add comments, filter by department, and see who is currently online. This project utilizes React.js as well as Firebase, links to code as well as the hosted site below.</Project>
           <Project src={projectManager} githubLink='https://github.com/braide7/projectTrackingApp' siteLink={null}>This app utlizes React.js and Tailwind CSS.
@@ -50,7 +53,7 @@ function App() {
 This is a project management app, you can add new projects with a description and a due date. Once added you can edit and add/remove additonal tasks.</Project>
         </Card>
 
-        <Card id={cardInfo[3].id} title={cardInfo[3].title}>
+        <Card id={cardInfo[3].id} title={cardInfo[3].title} indexNum={3}>
           <ContactMe></ContactMe>
         </Card>
       </Main>

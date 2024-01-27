@@ -1,3 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  /* background: #0a192f; */
+  background: radial-gradient(#003566, #001d3d);
+  background-repeat: none;
+  min-height: 100vh;
+  font-family: 'Source Sans 3', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
 header{
   padding: 0.5rem 1rem;
   display: flex;
@@ -18,6 +34,7 @@ header{
   max-width: 100rem;
   min-width: 23rem;
   padding: 1rem;
+  min-height: 11rem;
   background-color: rgba(6, 72, 125, 0.47);
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -33,13 +50,14 @@ header{
 #section-wrapper .text p{
   text-align: center;
   color: #eff6e0;
+  padding: 0 1rem;
 }
 
 #content-wrapper{
   display: grid;
   grid-template-columns: minmax(25rem, 75rem);
   grid-template-rows: auto;
-  max-width: 100rem;
+  max-width: 170rem;
   grid-gap: 10rem;
   margin: 5rem auto;
   justify-content: center;
@@ -108,21 +126,20 @@ header .nav-icon{
   background-color: rgba(0, 0, 0, 0.25);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  margin: 0 0.5rem 0 1rem;
-  padding: 2rem 1.25rem 0.75rem ;
+  margin: 0 0 0 2rem;
+  padding: 1.5rem;
   color: #eff6e0;
-  border-right: 1px solid #4DF8DF;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.45) 0px 15px 12px;
 }
 
 .card:nth-of-type(even){
-  margin: 0 1rem 0 0.5rem;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  border-right: 0;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  border-left: 1px solid #4DF8DF;
+
+  margin: 0 2rem 0 0;
 }
 
 
@@ -294,7 +311,14 @@ footer{
     width: 3rem;
   }
   .card{
-    margin: 0 3rem;
+    margin: 0 0 0 7rem;
+    border-right: 1px solid #4DF8DF;
+  }
+
+  .card:nth-of-type(even){
+    margin: 0 7rem 0 0;
+    border-right: 0;
+    border-left:1px solid #4DF8DF;
   }
   .card h2{
     padding-bottom: 2rem;
