@@ -14,12 +14,14 @@ export default function Section() {
         <div id="section-wrapper">
             <div id="text-wrap">
                 <div className="text">
+                    <div id="text-center">
                     <h1>
-                        <TypingText inputText={text[0]}  />
+                        <TypingText inputText={text[0]} />
                     </h1>
+                    </div>
                     <p data-aos="zoom-in"
                         data-aos-delay="1750"
-                        data-aos-duration="1500"> 
+                        data-aos-duration="1500">
                         {text[1]}
                     </p>
                 </div>
