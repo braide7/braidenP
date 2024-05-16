@@ -55,7 +55,7 @@ function App() {
           <Project src={dojoProject} githubLink='https://github.com/braide7/the-dojo' siteLink='https://thedojosite-74fec.web.app/login'>This site is for team project management. 
           You are able to add new projects, assign to team members, add comments, filter by department, and see who is currently online. This project utilizes React.js as well as Firebase, 
           links to code as well as the hosted site below. </Project>
-          <Project src={invoiceForm} githubLink='https://github.com/braide7/InvoicesForm' siteLink={null}>This is form created using C#, the form utilizes LINQ and asynchnous processing to allow the form to be used while loading invoice data</Project>
+          <Project src={invoiceForm} githubLink='https://github.com/braide7/InvoicesForm' siteLink={null}>This form was created using C#, the form utilizes LINQ and asynchnous processing to allow the form to be used while loading invoice data</Project>
           <Project src={projectManager} githubLink='https://github.com/braide7/projectTrackingApp' siteLink={null}>This app utlizes React.js and Tailwind CSS.
 
 This is a project management app, you can add new projects with a description and a due date. Once added you can edit and add/remove additonal tasks.</Project>
