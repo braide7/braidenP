@@ -2,9 +2,11 @@ import jsLogo from './assets/js.png';
 import cssLogo from './assets/css.png';
 import htmlLogo from './assets/html.png';
 import reactLogo from './assets/react.png';
-import sqlLogo from './assets/sql.png'
-import githubLogo from './assets/github.png'
-import tailwindLogo from './assets/tailwind.png'
+import sqlLogo from './assets/sql.png';
+import githubLogo from './assets/github.png';
+import tailwindLogo from './assets/tailwind.png';
+import cSharpLogo from './assets/cSharp.png';
+import javaLogo from './assets/java.png';
 
 export const LANG_LOGOS = [
     {
@@ -19,26 +21,31 @@ export const LANG_LOGOS = [
     },
     {
         key: 2,
+        src: cSharpLogo,
+        title: 'C#',
+    },
+    {
+        key: 3,
         src: jsLogo,
         title: 'Javascript',
     },
     {
-        key: 3,
+        key: 4,
         src: reactLogo,
         title: 'React',
     },
     {
-        key: 4,
+        key: 5,
         src: tailwindLogo,
         title:'Tailwind',
     },
     {
-        key: 5,
+        key: 6,
         src: sqlLogo,
         title:'SQL',
     },
     {
-        key: 6,
+        key: 7,
         src: githubLogo,
         title:'Github',
     },

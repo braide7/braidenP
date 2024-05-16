@@ -65,9 +65,9 @@ header{
 
 #content-wrapper{
   display: grid;
-  grid-template-columns: minmax(25rem, 75rem);
+  grid-template-columns: minmax(25rem, 100rem);
   grid-template-rows: auto;
-  max-width: 170rem;
+  max-width: 200rem;
   grid-gap: 10rem;
   margin: 5rem auto;
   justify-content: center;
@@ -187,6 +187,7 @@ header .nav-icon{
   grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
   grid-gap: 1rem;
   
+  
 }
 .lang-grid__item{
   max-height: 20rem;
@@ -205,6 +206,10 @@ header .nav-icon{
 }
 .lang-grid__item img:hover{
   filter:brightness(100%)
+}
+#languages{
+  width: 80%;
+  margin: 0 auto;
 }
 #languages h3{
   margin: 4rem 0;
