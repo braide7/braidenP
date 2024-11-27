@@ -73,6 +73,9 @@ header{
   justify-content: center;
 
 }
+.lang-grid__item{
+  align-items: center;
+}
 .logo-container{
   height: 3rem;
   width: 3rem;
@@ -172,6 +175,8 @@ header .nav-icon{
 }
 .card p{
   text-align: center;
+  padding: 0.25rem 0.5rem;
+  white-space: pre-wrap;
 }
 .card a{
   font-size: 1rem;
@@ -188,6 +193,7 @@ header .nav-icon{
   grid-gap: 1rem;
   
   
+  
 }
 .lang-grid__item{
   max-height: 20rem;
@@ -196,6 +202,8 @@ header .nav-icon{
   flex-direction: column;
   justify-self: center;
   text-align: center;
+  align-self: center;
+  padding: 0.5rem 0;
   
 }
 
@@ -329,6 +337,7 @@ footer{
   .card{
     margin: 0 0 0 7rem;
     border-right: 1px solid #4DF8DF;
+    
   }
 
   .card:nth-of-type(even){
@@ -342,6 +351,7 @@ footer{
   }
   .card p{
     text-align: center;
+    margin: 0 3rem;
   }
 }
 

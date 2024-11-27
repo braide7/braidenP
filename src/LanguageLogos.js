@@ -7,6 +7,7 @@ import githubLogo from './assets/github.png';
 import tailwindLogo from './assets/tailwind.png';
 import cSharpLogo from './assets/cSharp.png';
 import javaLogo from './assets/java.png';
+import pythonLogo from './assets/python.png'
 
 export const LANG_LOGOS = [
     {
@@ -26,29 +27,39 @@ export const LANG_LOGOS = [
     },
     {
         key: 3,
+        src: javaLogo,
+        title: 'Java'
+    },
+    {
+        key: 4,
         src: jsLogo,
         title: 'Javascript',
     },
     {
-        key: 4,
+        key: 5,
         src: reactLogo,
         title: 'React',
     },
     {
-        key: 5,
-        src: tailwindLogo,
-        title:'Tailwind',
-    },
-    {
         key: 6,
+        src: pythonLogo,
+        title: 'Python'
+    },
+    // {
+    //     key: 7,
+    //     src: tailwindLogo,
+    //     title:'Tailwind',
+    // },
+    {
+        key: 7,
         src: sqlLogo,
         title:'SQL',
     },
-    {
-        key: 7,
-        src: githubLogo,
-        title:'Github',
-    },
+    // {
+    //     key: 9,
+    //     src: githubLogo,
+    //     title:'Github',
+    // },
 
 
 ]
