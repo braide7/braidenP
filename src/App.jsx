@@ -14,6 +14,9 @@ import iGenius from './assets/iGenuis.png'
 import dojoProject from './assets/dojoHome.png'
 import projectManager from './assets/projectManager.png'
 import invoiceForm from './assets/invoiceForm.png'
+import TermTracker from './assets/TermTracker.png'
+import ClientScheduler from './assets/ClientScheduler.png'
+import TanitiSite from './assets/taniti.png'
 
 //logos
 import githubLogo from './assets/github2.png'
@@ -52,13 +55,18 @@ function App() {
         </Card>
         <Card id={cardInfo[2].id} title={cardInfo[2].title}  indexNum={2}>
           <p>{cardInfo[2].desc}</p>
+          <Project src={TermTracker} githubLink='https://github.com/braide7/TermTracker' siteLink='https://term-tracker-app.web.app/' >Term Tracker is a mobile app to help students manage academic terms, courses, and assessments 
+          with a clean, intuitive interface. Built with .NET MAUI and utilizing SQLite, this project showcases my full-stack skills in crafting user-focused, cross-platform solutions. More information can be found in the README on GitHub or you can 
+          download the APK at the link below</Project>
+          <Project src={ClientScheduler} githubLink='https://github.com/braide7/ClientScheduler' >Client Scheduler is a Windows Form application utilizing Entity Core and MySQL. This app manages client appointments and customer data with secure login, 
+          dynamic reports, and an intuitive interface. Built with C# and .NET, it uses MySQL to store data, handles times in UTC while displaying in local time. More information and screenshots can be found in the 
+          README on GitHub.</Project>
+          <Project src={TanitiSite} githubLink='https://github.com/braide7/tanitiSite'  siteLink='https://taniti-site-nu.vercel.app/'>A vibrant, fictional tourism website for the tropical island of Taniti, crafted with HTML, CSS, and JavaScript. 
+          Designed with a mobile-first approach, it delivers a seamless and stunning experience across both mobile and desktop devices.</Project>
           <Project src={dojoProject} githubLink='https://github.com/braide7/the-dojo' siteLink='https://thedojosite-74fec.web.app/login'>This site is for team project management. 
           You are able to add new projects, assign to team members, add comments, filter by department, and see who is currently online. This project utilizes React.js as well as Firebase, 
           links to code as well as the hosted site below. </Project>
-          <Project src={invoiceForm} githubLink='https://github.com/braide7/InvoicesForm' siteLink={null}>This form was created using C#, the form utilizes LINQ and asynchnous processing to allow the form to be used while loading invoice data</Project>
-          <Project src={projectManager} githubLink='https://github.com/braide7/projectTrackingApp' siteLink={null}>This app utlizes React.js and Tailwind CSS.
-
-This is a project management app, you can add new projects with a description and a due date. Once added you can edit and add/remove additonal tasks.</Project>
+  
         </Card>
 
         <Card id={cardInfo[3].id} title={cardInfo[3].title} indexNum={3}>

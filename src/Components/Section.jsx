@@ -4,7 +4,7 @@ import TypingText from "./TypingText";
 
 export default function Section() {
     const text = [
-        "Hey, I'm Braiden", 'A full-stack developer with a passion for making attractive and efficient web applications',
+        "Hey, I'm Braiden", 'A full-stack developer crafting seamless, user-focused applications with a knack for creative problem-solving and intuitive design.',
 
 
     ];
